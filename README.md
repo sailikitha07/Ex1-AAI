@@ -23,7 +23,7 @@ Step 13:Generate the graph using networkx<br/>
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-'''
+```python
 pip install pybbn
 
 from google.colab import drive
@@ -154,6 +154,8 @@ rain_cpt = pd.crosstab(
 
 print(rain_cpt.round(4))
 '''
+
+```
 ## Output:
 '''
 <img width="830" height="647" alt="image" src="https://github.com/user-attachments/assets/1403f70c-a744-4d55-b8a8-34b457434faa" />
